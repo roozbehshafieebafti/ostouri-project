@@ -1,11 +1,15 @@
 import React, { Component } from 'react';
+import Slider from "../../components/slider";
+import Header from "../../components/header";
 
-class Home extends Component {
+
+class Home extends Component {    
     render() {
         return (
-            <div>
-                this is home      
-            </div>
+            <>
+                <Slider />
+                <Header />
+            </>
         );
     }
 }
