@@ -10,11 +10,18 @@ class Header extends Component {
                         logo
                     </div>
                     <div className="serach-container">
-                        search
+                        <input className="search-input" type="text" placeholder="Search"/>
+                        <button className="search-button">!!</button>
                     </div>
                 </div>
-                <div style={{backgroundColor: "red", position: "absolute", left: 0, right: 0}}>
-                    hello boy
+                <div className="red-roban">
+                    <div>
+                        <a className="links" href="#">Home</a>
+                        <a className="links" href="#">Main business</a>
+                        <a className="links" href="#">News</a>
+                        <a className="links" href="#">About & Contact us</a>
+                    </div>
+                    <div>logo</div>
                 </div>
             </div>
         );
