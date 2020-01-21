@@ -16,10 +16,10 @@ class Header extends Component {
                 </div>
                 <div className="red-roban">
                     <div>
-                        <a className="links" href="#">Home</a>
+                        <a className="links" href="#Home">Home</a>
                         <a className="links" href="#MainBusiness">Main business</a>
-                        <a className="links" href="#">News</a>
-                        <a className="links" href="#">About & Contact us</a>
+                        <a className="links" href="#News">News</a>
+                        <a className="links" href="#About">About & Contact us</a>
                     </div>
                     <div>logo</div>
                 </div>

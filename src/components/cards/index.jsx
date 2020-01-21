@@ -11,7 +11,7 @@ function Card(props) {
                         </div>
                     </div>
                     <div>
-                        <img className="col-12" src={props.src} alt="picture"/>
+                        <img className="col-12" src={props.src} alt="production"/>
                     </div>
                 </div>
             </div>            

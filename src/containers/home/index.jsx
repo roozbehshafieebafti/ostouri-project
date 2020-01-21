@@ -4,6 +4,7 @@ import Header from "../../components/header";
 import Proccessed from "./proccessed";
 import Business from "./business";
 import News from "./news";
+import Footer from "./footer";
 class Home extends Component {   
     state={
         height: window.innerWidth/2.25
@@ -27,7 +28,8 @@ class Home extends Component {
                 <div className="how-product-proccess container" style={{position:"relative", top: height}}>
                     <Proccessed />
                     <Business />
-                    <News />           
+                    <News />  
+                    <Footer />         
                 </div>
             </div>
         );
