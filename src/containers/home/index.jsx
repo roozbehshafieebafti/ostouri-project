@@ -3,7 +3,7 @@ import Slider from "../../components/slider";
 import Header from "../../components/header";
 import Proccessed from "./proccessed";
 import Business from "./business";
-
+import News from "./news";
 class Home extends Component {   
     state={
         height: window.innerWidth/2.25
@@ -26,7 +26,8 @@ class Home extends Component {
                 <Header />
                 <div className="how-product-proccess container" style={{position:"relative", top: height}}>
                     <Proccessed />
-                    <Business />             
+                    <Business />
+                    <News />           
                 </div>
             </div>
         );
