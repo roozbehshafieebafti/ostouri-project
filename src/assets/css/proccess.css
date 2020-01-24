@@ -5,6 +5,10 @@
     font-family: fantasy;
 }
 .how-product-content-part-1{
-    height: 200px;
+    /* height: 200px; */
     
+}
+.proccess-image{
+    width: 200px;
+    height: 120px;
 }

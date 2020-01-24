@@ -13,7 +13,7 @@ const images = [
 
 class Slider extends Component {  
     state = {
-        width: window.innerWidth,
+        width: window.innerWidth-17,
         height: window.innerWidth/2.08
     } 
     componentDidMount(){
@@ -29,12 +29,12 @@ class Slider extends Component {
             node[index].click();
         },5000);
         window.addEventListener('resize',()=>{
-            let size = window.innerWidth;
+            let size = window.innerWidth-17;
             setTimeout(()=>{
                 if(size === window.innerWidth){
                     this.setState({width: window.innerWidth, height: window.innerWidth/2.08});
                 }
-            },100);
+            },10);
         })
     }
     render() {

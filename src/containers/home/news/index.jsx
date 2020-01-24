@@ -4,7 +4,7 @@ import News_1 from "../../../assets/images/news/News3.jpg"
 class News extends Component {
     render() {
         return (
-            <div className="row mt-3 mb-3" style={{position:"relative"}}>
+            <div id="news" className="row mt-3 mb-3" style={{position:"relative"}}>
                 <div className="col-12 robanHeader mb-4" id="MainBusiness">
                     <b>News</b>
                 </div>

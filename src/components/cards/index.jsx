@@ -7,7 +7,7 @@ function Card(props) {
                 <div className="border border-dark mr-4 ml-4 pt-3 pb-4">
                     <div className="col-12 mb-3">
                         <div style={styles.roban}>
-                            sdfsdfdfsd
+                            {props.name}
                         </div>
                     </div>
                     <div>
