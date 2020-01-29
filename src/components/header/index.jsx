@@ -1,7 +1,7 @@
 // node libraries
 import React, { Component } from 'react';
-import LOGO from "../../assets/images/logos/logo3.jpg";
-import LOGO_Tow from "../../assets/images/logos/logo5.png";
+import LOGO from "../../assets/images/logos/22.png";
+import LOGO_Tow from "../../assets/images/logos/11.png";
 import {FaSistrix} from "react-icons/fa"
 
 

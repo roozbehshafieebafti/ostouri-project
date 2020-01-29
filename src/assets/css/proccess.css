@@ -12,3 +12,31 @@
     width: 200px;
     height: 120px;
 }
+
+@media (max-width:1110px){
+    .proccess-image{
+        width: 130px;
+        height: 60px;
+    }
+    .how-product-content-part-2{
+        margin-top: 30px;
+    }
+}
+@media (max-width:768px){
+    .proccess-image{
+        width: 150px;
+        height: 80px;
+    }
+    .how-product-content-part-2{
+        margin-top: 30px;
+    }
+}
+@media (max-width:480px){
+    .proccess-image{
+        width: 80px;
+        height: 60px;
+    }
+    .how-product-content-part-2{
+        margin-top: 50px;
+    }
+}

@@ -1,14 +1,20 @@
 import React, { Component } from 'react';
 import SimpleImageSlider from "react-simple-image-slider";
 
-import First from "../../assets/images/slider/001.jpeg";
-import secind from "../../assets/images/slider/002.jpeg";
-import third from "../../assets/images/slider/003.jpeg";
+import Img1 from "../../assets/images/slider/001.jpg";
+import Img2 from "../../assets/images/slider/002.jpg";
+import Img3 from "../../assets/images/slider/003.jpg";
+import Img4 from "../../assets/images/slider/004.jpg";
+import Img5 from "../../assets/images/slider/005.jpg";
+import Img6 from "../../assets/images/slider/006.jpg";
 
 const images = [
-    { url: First },
-    { url: secind },
-    { url: third },
+    { url: Img1 },
+    { url: Img2 },
+    { url: Img3 },
+    { url: Img4 },
+    { url: Img5 },
+    { url: Img6 },
 ];
 
 class Slider extends Component {  
