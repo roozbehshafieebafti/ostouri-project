@@ -7,10 +7,11 @@ import phone from "../../../assets/images/social/phone.png"
 import tel from "../../../assets/images/social/tel.png"
 import wats from "../../../assets/images/social/wats.png"
 
+const _date = new Date();
 class Footer extends Component {
     render() {
         return (
-            <div style={{marginTop: 90, paddingBottom:30}}>
+            <div style={{marginTop: 90, paddingBottom:10}}>
                 <div id="footer" className="row mt-3" style={{position:"relative", marginBottom:2}}>
                     <div className="col-12 robanHeader" id="MainBusiness">
                         <b className="h4">About & Conect us</b>
@@ -64,6 +65,9 @@ class Footer extends Component {
                         environments. Lorem ipsum and its many variants have been employed since the early 1960ies, and quite likely
                         since the sixteenth century.
                     </div>
+                </div>
+                <div className="text-center">
+                    Copyright &copy; {_date.getFullYear()} Ostouri Co. All rights reserved
                 </div>
             </div>
         );
