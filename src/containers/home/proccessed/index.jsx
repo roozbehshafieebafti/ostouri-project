@@ -22,23 +22,25 @@ class Proccessed extends Component {
                             </div>
                         </div>
                         <div className="how-product-content-part-2 col-xl-8 col-md-7 col-12">
-                            <div className="row">
-                                <div className="col-4 mb-2">
+                            <div className="d-flex justify-content-center ">
+                                <div className="proccess-img-container">
                                     <img className="proccess-image" src={Img1} alt=""/>
                                 </div>
-                                <div className="col-4 mb-2">
+                                <div className="proccess-img-container">
                                     <img className="proccess-image" src={Img2} alt=""/>
                                 </div>
-                                <div className="col-4 mb-2">
+                                <div className="proccess-img-container">
                                     <img className="proccess-image" src={Img3} alt=""/>
                                 </div>
-                                <div className="col-4 mb-2">
+                            </div>   
+                            <div className="d-flex justify-content-center ">    
+                                <div className="proccess-img-container">
                                     <img className="proccess-image" src={Img4} alt=""/>
                                 </div>
-                                <div className="col-4 mb-2">
+                                <div className="proccess-img-container">
                                     <img className="proccess-image" src={Img5} alt=""/>
                                 </div>
-                                <div className="col-4 mb-2">
+                                <div className="proccess-img-container">
                                     <img className="proccess-image" src={Img6} alt=""/>
                                 </div>
                             </div>

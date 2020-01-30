@@ -4,13 +4,11 @@
 .how-h3{
     font-family: fantasy;
 }
-.how-product-content-part-1{
-    /* height: 200px; */
-    
-}
 .proccess-image{
     width: 200px;
     height: 120px;
+    display: inline-block;
+    margin: 5px;
 }
 
 @media (max-width:1110px){
