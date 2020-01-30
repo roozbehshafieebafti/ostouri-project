@@ -95,3 +95,12 @@
         display: none;
     }
 }
+
+/* belongs to footer */
+.footer-link{
+    color: black;
+}
+.footer-link:hover{
+    color: red;
+    text-decoration: underline;
+}

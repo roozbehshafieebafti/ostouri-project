@@ -25,27 +25,27 @@ class Footer extends Component {
                         <div>
                             <div>
                                 <img src={wats} alt="" style={{width: 34,marginBottom:4}} />
-                                <a className="text-danger" style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'https://wa.me/0989137053711'}>09123456789</a>
+                                <a className="footer-link" style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'https://wa.me/0989137053711'}>09123456789</a>
                             </div>
                             <div>
                                 <img src={tel} alt="" style={{width: 30,  marginBottom:4}}/>
-                                <a style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'https://t.me/khaajoo'}>09123456789</a>
+                                <a className="footer-link" style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'https://t.me/khaajoo'}>09123456789</a>
                             </div>
                             <div>
                                 <img src={phone} alt="" style={{width: 30,  marginBottom:4}}/>
-                                <span style={{display:'inline-block',marginLeft: 20}}>09123456789</span>
+                                <span className="footer-link" style={{display:'inline-block',marginLeft: 20}}>09123456789</span>
                             </div>
                             <div>
                                 <img src={mail} alt="" style={{width: 30,  marginBottom:4}}/>
-                                <a style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'mailto:pars.pariz@gmail.com'}>pars.pariz@gmail.com</a>
+                                <a className="footer-link" style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'mailto:pars.pariz@gmail.com'}>pars.pariz@gmail.com</a>
                             </div>
                             <div>
                                 <img src={insta} alt="" style={{width: 30,  marginBottom:4}}/>
-                                <a style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'https://www.instagram.com'}>instagram</a>
+                                <a className="footer-link" style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'https://www.instagram.com'}>instagram</a>
                             </div>
                             <div>
                                 <img src={map} alt="" style={{width: 30,  marginBottom:4}}/>
-                                <a style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'http://maps.google.com/?q=35.702104,51.403790'}>google map</a>
+                                <a className="footer-link" style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'http://maps.google.com/?q=35.702104,51.403790'}>google map</a>
                             </div>
                         </div>
                     </div>
