@@ -25,7 +25,7 @@ class Footer extends Component {
                         <div>
                             <div>
                                 <img src={wats} alt="" style={{width: 34,marginBottom:4}} />
-                                <a  rel="noopener noreferrer" className="footer-link" style={{display:'inline-block',marginLeft: 20}} target="_blank" href={'https://wa.me/0989137053711'}>09123456789</a>
+                                <a  rel="noopener noreferrer" className="footer-link" style={{display:'inline-block',marginLeft: 20, position:"relative", right: 4}} target="_blank" href={'https://wa.me/0989137053711'}>09123456789</a>
                             </div>
                             <div>
                                 <img src={tel} alt="" style={{width: 30,  marginBottom:4}}/>
