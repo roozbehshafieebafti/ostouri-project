@@ -21,7 +21,7 @@ function Card(props) {
 
 const styles={
     roban:{
-        backgroundColor: "rgb(199,60,41)",
+        backgroundColor: "rgb(168,0,26)",
         color: "white",
         height: 40,
         display: "flex",
