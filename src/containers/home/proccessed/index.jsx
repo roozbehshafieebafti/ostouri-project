@@ -13,12 +13,12 @@ class Proccessed extends Component {
         
         return (
             <div style={{marginTop: 70, marginBottom:50}}>
-                <h2 className="how-h3 mt-1">How are these products proccessed? </h2>
                 <div className="how-product-content pl-1 pr-1 mb-5" style={{marginTop: 70}}>
                     <div className="row">
-                        <div className="how-product-content-part-1 col-xl-4 col-md-5 col-12 border border-dark">
-                            <div className="how-product-content-part-1 text-white" style={{minHeight: 200}}>
-                                content
+                        <div className="how-product-content-part-1 col-xl-4 col-md-5 col-12 border border-dark d-flex align-items-center">
+                            <div className="how-product-content-part-1 pr-2 pl-2" style={{minHeight: 200, textAlign: 'justify', fontSize: 17 , fontWeight: "bold"}}>
+                            Our employees are trained to find top farmers with best crops. We begin our works some months before harvesting to find premium quality with competitive price to bring a win-win result between us and our customers.
+                            After choosing the crop we control the process of sorting with advanced machines to have crop that meet the expectation of our customers
                             </div>
                         </div>
                         <div className="how-product-content-part-2 col-xl-8 col-md-7 col-12">
