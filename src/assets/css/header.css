@@ -1,3 +1,12 @@
+body{
+    overflow-x: hidden;    
+}
+.header-container{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
 .main-header{
     position: relative;
     display: flex;

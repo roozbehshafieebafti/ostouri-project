@@ -1,5 +1,24 @@
-.slider{
-    position: absolute;
-    top:0px;
-    left: 0px;
+.slider-image{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.slick-slider{
+    overflow: hidden;
+}
+.slider-image > img{
+    width: 100vw;
+    height: 100vh;
+}
+
+@media screen and (max-width:480px) {
+    .slider-image{
+        width: 100vw;
+        height: 60vh;
+        overflow-x: hidden;
+    }
+    .slider-image > img{
+        width: 100vw;
+        height: 60vh;
+    }   
 }

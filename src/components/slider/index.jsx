@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import SimpleImageSlider from "react-simple-image-slider";
+import Slider from "react-slick";
+// 
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 import Img1 from "../../assets/images/slider/001.jpg";
 import Img2 from "../../assets/images/slider/002.jpg";
@@ -8,53 +11,42 @@ import Img4 from "../../assets/images/slider/004.jpg";
 import Img5 from "../../assets/images/slider/005.jpg";
 import Img6 from "../../assets/images/slider/006.jpg";
 
-const images = [
-    { url: Img1 },
-    { url: Img2 },
-    { url: Img3 },
-    { url: Img4 },
-    { url: Img5 },
-    { url: Img6 },
-];
-
-class Slider extends Component {  
-    state = {
-        width: window.innerWidth-17,
-        height: window.innerWidth/2.08
-    } 
-    componentDidMount(){
-        let length = document.getElementsByClassName('image-slider-bullets').length;
-        let node = document.getElementsByClassName('image-slider-bullets');
-        let index = 0;
-        setInterval(()=>{
-            if(index<length-1){
-                index++;
-            }else{
-                index=0;
-            }            
-            node[index].click();
-        },5000);
-        window.addEventListener('resize',()=>{
-            let size = window.innerWidth-17;
-            setTimeout(()=>{
-                if(size === window.innerWidth){
-                    this.setState({width: window.innerWidth, height: window.innerWidth/2.08});
-                }
-            },10);
-        })
-    }
+class SliderComponent extends Component {     
     render() {
+        const settings = {
+            dots: true,
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: true,
+            speed: 500,
+            autoplaySpeed: 6000,
+        };
         return (
-            <div className="slider" style={{zIndex:0}}>
-                <SimpleImageSlider
-                    width={this.state.width}
-                    height={this.state.height}
-                    images={images}
-                    slideDuration={1}
-                />  
+            <div>
+                <Slider {...settings}>
+                    <div className="slider-image">
+                        <img src={Img1} alt="" />
+                    </div>
+                    <div className="slider-image">
+                        <img src={Img2} alt="" />
+                    </div>
+                    <div className="slider-image">
+                        <img src={Img3} alt="" />
+                    </div>
+                    <div className="slider-image">
+                        <img src={Img4} alt="" />
+                    </div>
+                    <div className="slider-image">
+                        <img src={Img5} alt="" />
+                    </div>
+                    <div className="slider-image">
+                        <img src={Img6} alt="" />
+                    </div>
+                </Slider>
             </div>
         );
     }
 }
 
-export default Slider;
+export default SliderComponent;
